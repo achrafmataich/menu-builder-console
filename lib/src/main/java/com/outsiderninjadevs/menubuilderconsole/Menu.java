@@ -63,9 +63,10 @@ public class Menu {
                 if (menuItem.getKey().equals(choice)) {
                     if (menuItem.getSubMenu() != null) {
                         menuItem.getSubMenu().showMenu();
-                        System.out.println("OUTOUTOUTOUT");
                     } else if(menuItem.getF() != null) {
+                        System.out.println("--------");
                         menuItem.getF().run();
+                        System.out.println("--------");
                     } else {
                         System.out.println("!!ERROR");
                     }
