@@ -8,4 +8,4 @@
  */
 
 rootProject.name = 'menu-builder-console'
-include('lib')
+include('menu-builder-console')
