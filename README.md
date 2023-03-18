@@ -6,7 +6,7 @@ This is a simple menu builder for java console apps that create a navigable menu
 
 ## Usage
 
-Create the whole logic in the instanciation if the menu
+Create the whole logic in the instanciation of the menu
 
 The very simple way to make the first menu with only one menu item that does nothing would be:
 
